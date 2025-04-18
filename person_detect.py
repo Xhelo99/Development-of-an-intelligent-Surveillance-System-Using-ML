@@ -23,7 +23,7 @@ class Person:
         person_pixel_count = (self.results == person_class_id).sum()
 
         # Check if there are more than 80 pixels labeled as "person"
-        return person_pixel_count > 50
+        return person_pixel_count > 80
 
     def get_bounding_box(self):
         """
